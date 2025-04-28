@@ -72,6 +72,20 @@ body.dark-theme {
   align-items: center;
 }
 
+
+.skill-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.skills-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
 /* theme  */
 .change-theme {
   font-size: 1.25rem;
