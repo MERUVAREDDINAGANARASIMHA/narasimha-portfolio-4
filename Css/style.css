@@ -73,6 +73,28 @@ body.dark-theme {
 }
 
 
+/* Additional CSS to ensure proper spacing and alignment */
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Adds space between each flex item */
+  }
+
+  .skills-content .flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem; /* Adds bottom margin to each skill item */
+  }
+
+  .skills-content i {
+    margin-right: 8px; /* Adds space between the icon and text */
+  }
+
+  .skills-content span {
+    font-size: 1.2rem; /* Adjust font size if needed */
+  }
+
 /* .skill-logo {
   width: 24px;
   height: 24px;
